@@ -1,0 +1,66 @@
+/* FileName: library.scss */
+
+.library { 
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	width: 20rem; 
+	height: 100%; 
+	background: #32522b; 
+	box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.205); 
+	overflow: scroll; 
+	transform: translateX(-100%); 
+	transition: all 0.2s ease; 
+	opacity: 0; 
+	h2 { 
+		padding: 2rem; 
+	} 
+} 
+.library-song { 
+	display: flex; 
+	align-items: center; 
+	padding: 1rem 2rem 1rem 2rem; 
+	img { 
+		width: 30%; 
+	} 
+	&:hover { 
+		background: rgb(120, 248, 160); 
+	} 
+} 
+.song-description { 
+	padding-left: 1rem; 
+	h3 { 
+		color: #ffffff; 
+		font-size: 1rem; 
+	} 
+	h4 { 
+		color: gray; 
+		font-size: 0.7rem; 
+	} 
+} 
+::-webkit-scrollbar { 
+	width: 5px; 
+} 
+::-webkit-scrollbar-thumb { 
+	background: rgb(255, 183, 183); 
+	border-radius: 10px; 
+} 
+
+::-webkit-scrollbar-track { 
+	background: rgb(221, 221, 221); 
+} 
+.selected { 
+	background: rgb(255, 230, 255); 
+	h3 { 
+		color: #306b26; 
+	} 
+} 
+.active { 
+	transform: translateX(0%); 
+	opacity: 1; 
+} 
+@media screen and (max-width: 768px) { 
+	.library { 
+		width: 100%; 
+	} 
+} 
