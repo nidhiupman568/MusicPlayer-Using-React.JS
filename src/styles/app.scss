@@ -7,11 +7,11 @@
 	font-family: "Gilroy", sans-serif; 
 } 
 body { 
-	background: rgb(231, 235, 214); 
+	background: #ebd6e5; 
 	background: linear-gradient( 
 		180deg, 
-		rgba(231, 235, 214, 1) 0%, 
-		rgba(55, 102, 44, 1) 100%
+		rgb(235, 214, 214) 0%, 
+		#66662cf8 100%
 	); 
 } 
 
@@ -21,7 +21,7 @@ body {
 @import "./nav"; 
 h2, 
 h3 { 
-	color: #133a1b; 
+	color: hsla(51, 39%, 90%, 0.985); 
 } 
 h3, 
 h4 { 

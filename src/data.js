@@ -6,7 +6,7 @@ return [
 	{ 
 	name: "Sunrise Serenade", 
 	cover: 
-"https://media.geeksforgeeks.org/wp-content/uploads/20210224040124/JSBinCollaborativeJavaScriptDebugging6.png", 
+"https://media.geeksforgeeks.org/wp-content/uploads/20231004210806/DemotivationalPosterfull936506.jpg", 
 	artist: " Harmony Harp", 
 	audio: 
 "https://media.geeksforgeeks.org/wp-content/uploads/20231004185212/Jawan-Prevue-Theme.mp3", 
@@ -39,7 +39,7 @@ return [
 	{ 
 	name: "Electro Vibes", 
 	cover: 
-"https://media.geeksforgeeks.org/wp-content/uploads/20231004184219/gfglogo0.jpg", 
+"https://media.geeksforgeeks.org/wp-content/uploads/20231004210619/3408428b23c516b1687c748cb7de7be7.webp", 
 	artist: "Synthwave Sensation", 
 	audio: 
 "https://media.geeksforgeeks.org/wp-content/uploads/20231004191840/Zinda-Banda---Jawan-(1).mp3", 
